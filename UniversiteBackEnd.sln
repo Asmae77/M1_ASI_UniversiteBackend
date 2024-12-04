@@ -8,9 +8,20 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "EntryPoints", "EntryPoints"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "UniTests", "UniTests", "{112A25E0-647D-4738-A355-BAC9DE40AB84}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UniversiteDomain", "UniversiteDomain\UniversiteDomain.csproj", "{05435BE6-F690-4864-8348-1581ACC0A4EC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{05435BE6-F690-4864-8348-1581ACC0A4EC} = {C353E078-16A5-4331-ABFA-65C2317264D4}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{05435BE6-F690-4864-8348-1581ACC0A4EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05435BE6-F690-4864-8348-1581ACC0A4EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05435BE6-F690-4864-8348-1581ACC0A4EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05435BE6-F690-4864-8348-1581ACC0A4EC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
